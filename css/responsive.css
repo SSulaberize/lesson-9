@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+}
+@media (max-width: 1127px){
+    .box:nth-child(3),
+    .box:nth-child(4)
+    {
+        margin: 20px 0px;
+    }
+}
+@media (max-width: 756px){
+    .box:first-child{
+        margin-bottom: 20px;
+    }
+    .box:last-child{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1167px){
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .computer{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 756px){
+    .button{
+        height: 40px;
+        width: 150px;
+    }
+    .wave-me{
+        font-size: 15px;
+    }
+}
