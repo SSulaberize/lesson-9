@@ -1,8 +1,8 @@
 /* Main elements */
 ul {
   display: flex;
- justify-content: space-evenly;
- width: 580px;
+  justify-content: space-evenly;
+  width: 580px;
 }
 li {
   font-size: 20px;
@@ -51,7 +51,7 @@ p {
   font-size: 20px;
   text-transform: uppercase;
 }
-.read-more{
+.read-more {
   color: #ffffff;
   font-family: "Roboto";
   text-transform: capitalize;
@@ -109,15 +109,15 @@ p {
   border-radius: 38px;
   margin-top: 83.9px;
 }
-.computer{
+.computer {
   max-width: 800.98px;
   width: 100%;
 }
-.wave-me{
+.wave-me {
   color: #ffffff;
   font-family: "Poppins";
   font-size: 18px;
-} 
+}
 /* Second Section */
 .higher-box {
   display: flex;
@@ -163,7 +163,7 @@ p {
 .button-2:hover .read-more {
   color: black;
 }
-.box{
+.box {
   height: 400px;
   max-height: 100%;
   max-width: 370px;
@@ -193,9 +193,9 @@ p {
     rgba(103, 80, 155, 1) 0%,
     rgba(75, 59, 108, 1) 71%
   );
- }
+}
 .box:nth-child(4) {
-    background: linear-gradient(
+  background: linear-gradient(
     36deg,
     rgba(63, 132, 209, 1) 0%,
     rgba(14, 101, 198, 1) 71%
@@ -211,7 +211,7 @@ p {
   );
 }
 .box:nth-child(6) {
-   background: linear-gradient(
+  background: linear-gradient(
     184deg,
     rgba(253, 127, 135, 1) 0%,
     rgba(217, 105, 110, 1) 25%,
