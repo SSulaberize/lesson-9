@@ -96,7 +96,7 @@ p {
 .left-block {
   display: flex;
   align-items: flex-start;
-  flex-flow: column;
+  flex-direction: column;
   margin-right: 30px;
 }
 .button {
@@ -163,71 +163,45 @@ p {
 .button-2:hover .read-more {
   color: black;
 }
-.box:nth-child(1) {
+.box{
   height: 400px;
   max-height: 100%;
   max-width: 370px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box:nth-child(1) {
   background: linear-gradient(
     45deg,
     rgba(247, 183, 118, 1) 0%,
     rgba(224, 169, 113, 1) 81%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 .box:nth-child(2) {
-  height: 400px;
-  max-height: 100%;
-  max-width: 370px;
-  width: 100%;
   background: linear-gradient(
     313deg,
     rgba(64, 232, 226, 1) 0%,
     rgba(39, 160, 190, 1) 81%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 .box:nth-child(3) {
-  height: 400px;
-  max-height: 100%;
-  max-width: 370px;
-  width: 100%;
   background: linear-gradient(
     302deg,
     rgba(103, 80, 155, 1) 0%,
     rgba(75, 59, 108, 1) 71%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
+ }
 .box:nth-child(4) {
-  height: 400px;
-  max-height: 100%;
-  max-width: 370px;
-  width: 100%;
-  background: linear-gradient(
+    background: linear-gradient(
     36deg,
     rgba(63, 132, 209, 1) 0%,
     rgba(14, 101, 198, 1) 71%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 .box:nth-child(5) {
-  height: 400px;
-  max-height: 100%;
-  max-width: 370px;
-  width: 100%;
   background: linear-gradient(
     36deg,
     rgba(162, 159, 245, 1) 0%,
@@ -235,25 +209,13 @@ p {
     rgba(123, 118, 229, 1) 50%,
     rgba(102, 96, 221, 1) 75%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 .box:nth-child(6) {
-  height: 400px;
-  max-height: 100%;
-  max-width: 370px;
-  width: 100%;
-  background: linear-gradient(
+   background: linear-gradient(
     184deg,
     rgba(253, 127, 135, 1) 0%,
     rgba(217, 105, 110, 1) 25%,
     rgba(196, 92, 95, 1) 50%,
     rgba(166, 73, 75, 1) 75%
   );
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
