@@ -16,6 +16,13 @@
   .box:last-child {
     margin-top: 20px;
   }
+  .button {
+    height: 40px;
+    width: 150px;
+  }
+  .wave-me {
+    font-size: 15px;
+  }
 }
 @media (max-width: 1167px) {
   .first-section {
@@ -23,24 +30,15 @@
     flex-direction: column;
     align-items: center;
   }
-  .left-block{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  .left-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-  .button{
+  .button {
     margin: 40px 0px;
   }
-  h2{
+  h2 {
     text-align: center;
-  }
-}
-@media (max-width: 756px) {
-  .button {
-    height: 40px;
-    width: 150px;
-  }
-  .wave-me {
-    font-size: 15px;
   }
 }
